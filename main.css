@@ -1,0 +1,141 @@
+body
+{
+	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #efefef;
+	animation-name: body1;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes body1 {
+    0%   {background-color: #333333; left:0px; top:0px;}
+    25%  {background-color: grey; left:200px; top:0px;}
+    50%  {background-color:	#cecece; left:200px; top:200px;}
+    75%  {background-color: grey; left:0px; top:200px;}
+		100% {background-color:	#333333; left:0px; top:0px;}
+}
+
+
+a:link 
+{
+    color: #fff;
+	text-decoration: none;
+}
+
+a:visited 
+{
+    color: #fff;
+}
+
+a:hover 
+{
+    color: #fff;
+}
+
+a:active 
+{    
+	color: #fff;
+}
+
+.container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 25px;
+}
+
+.postcard
+{
+	margin-left: 31%;
+	width: 460px;
+	text-align: center;
+	padding: 5px;
+	
+}
+
+.postcard p
+{
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 35%;
+}
+
+h1
+{
+	font-size: 32px;
+	font-weight: 400;
+	color: #2925fe;
+	margin-top: 45px;	
+	margin-bottom: 30px;
+	margin-left: 35%;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+/* Hover effects */
+
+.photo1
+{
+	width: 450px;
+	transition: transform 1s ease-in-out;
+}
+
+.photo1:hover
+{
+	transform: scale(0.8) rotate(5deg) skewX(10deg);
+}
+.photo2:hover
+{
+	transform: scale(1.1);
+}
+.photo3:hover
+{
+	transform: rotate(20deg);
+}
+.photo4:hover
+{
+	transform: scaleX(3);
+}
+.photo5:hover
+{
+	transform: rotateX(180deg);
+}
+.photo6:hover
+{
+	transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+.photo2
+{
+	width: 450px;
+	transition: transform 1s ease-in-out;
+}
+
+.photo3
+{
+	width: 450px;
+	transition: transform 1s ease-in-out;
+}
+
+.photo4
+{
+	width: 450px;
+	transition: transform 1s ease-in-out;
+}
+
+.photo5
+{
+	width: 450px;
+	transition: transform 1s ease-in-out;
+}
+
+.photo6
+{
+	width: 450px;
+	transition: transform 3s ease-in-out;
+}
